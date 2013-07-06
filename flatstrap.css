@@ -1,37 +1,41 @@
 .btn {
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-  background-image: none;
   border-bottom-color: transparent;
   border-color: rgba(0, 0, 0, 0.1);
 }
 
+.btn,
+.btn.active,
+.btn:active,
+.btn-group > .btn + .dropdown-toggle,
+.btn-group.open .dropdown-toggle,
+.dropdown-menu,
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a,
-.navbar-inner {
-  background-image: none;
-}
-
 .progress .bar,
-.btn-group.open .dropdown-toggle {
-  background-image: none;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-}
-
-.btn.active,
-.btn:active,
-.btn-group > .btn + .dropdown-toggle,
-.dropdown-menu,
 .popover,
 .modal,
+.navbar-inner,
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -48,7 +52,11 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus,
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus,
 .well {
+  background-image: none;
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
           box-shadow: none;
