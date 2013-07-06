@@ -29,11 +29,11 @@
           box-shadow: none;
 }
 .dropdown-menu,
-.popover {
+.popover,
+.modal {
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
           box-shadow: none;
-
 }
 
 .navbar .nav > .active > a,
