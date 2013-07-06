@@ -25,6 +25,7 @@
 
 .btn.active,
 .btn:active,
+.btn-group > .btn + .dropdown-toggle,
 .dropdown-menu,
 .popover,
 .modal,
