@@ -14,6 +14,7 @@
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a,
 .progress .bar,
+.progress .bar + .bar,
 .popover,
 .modal,
 .navbar-inner,
